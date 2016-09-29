@@ -39,7 +39,7 @@
             this.labelTitle.AutoSize = true;
             this.labelTitle.Font = new System.Drawing.Font("Prestige Elite Std", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTitle.ForeColor = System.Drawing.Color.White;
-            this.labelTitle.Location = new System.Drawing.Point(65, 9);
+            this.labelTitle.Location = new System.Drawing.Point(202, 9);
             this.labelTitle.Name = "labelTitle";
             this.labelTitle.Size = new System.Drawing.Size(140, 45);
             this.labelTitle.TabIndex = 0;
@@ -50,7 +50,7 @@
             this.labelName.AutoSize = true;
             this.labelName.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelName.ForeColor = System.Drawing.Color.White;
-            this.labelName.Location = new System.Drawing.Point(8, 221);
+            this.labelName.Location = new System.Drawing.Point(139, 213);
             this.labelName.Name = "labelName";
             this.labelName.Size = new System.Drawing.Size(264, 31);
             this.labelName.TabIndex = 1;
@@ -58,7 +58,7 @@
             // 
             // drawOrion
             // 
-            this.drawOrion.Location = new System.Drawing.Point(73, 98);
+            this.drawOrion.Location = new System.Drawing.Point(210, 92);
             this.drawOrion.Name = "drawOrion";
             this.drawOrion.Size = new System.Drawing.Size(119, 83);
             this.drawOrion.TabIndex = 2;
@@ -71,7 +71,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(551, 435);
             this.Controls.Add(this.drawOrion);
             this.Controls.Add(this.labelName);
             this.Controls.Add(this.labelTitle);

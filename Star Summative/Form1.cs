@@ -29,8 +29,34 @@ namespace Star_Summative
             drawOrion.Visible = false;
             labelName.Visible = false;
 
-            //test
-          
+            Pen whitePen = new Pen(Color.White, 10);
+            SolidBrush whiteBrush = new SolidBrush(Color.White);
+
+            Thread.Sleep(1500);
+            Refresh();
+
+            formGraphics.FillEllipse(whiteBrush, 14, 52, 10, 10);
+            Thread.Sleep(1000);
+            formGraphics.FillEllipse(whiteBrush, 43, 55, 10, 10);
+            Thread.Sleep(1000);
+            formGraphics.FillEllipse(whiteBrush, 39, 122, 10, 10);
+            Thread.Sleep(1000);
+            formGraphics.FillEllipse(whiteBrush, 25, 129, 10, 10);
+            Thread.Sleep(1000);
+            formGraphics.FillEllipse(whiteBrush, 86, 174, 10, 10);
+            Thread.Sleep(1000);
+            formGraphics.FillEllipse(whiteBrush, 124, 187, 10, 10);
+            Thread.Sleep(1000);
+            formGraphics.FillEllipse(whiteBrush, 169, 129, 10, 10);
+            Thread.Sleep(1000);
+            formGraphics.FillEllipse(whiteBrush, 226, 152, 10, 10);
+            Thread.Sleep(1000);
+            
+
+
+
+
+
 
 
 
