@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +79,84 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orion_stellarium.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iDubbz_-_Hey_that_39_s_pretty_good_.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sm64_mario_boing.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sm64_mario_doh.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sm64_mario_haha.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sm64_mario_hoo.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sm64_mario_hoohoo.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sm64_mario_its_me.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sm64_mario_lets_go.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sm64_mario_waha.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sm64_mario_yahoo.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sm64_mario_yippee.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smb_1-up.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smb_bowserfire.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smb_breakblock.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smb_bump.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smb_coin.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smb_fireball.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smb_fireworks.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smb_jump-small.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smb_kick.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smb_pipe.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smb_powerup.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smb_powerup_appears.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smb_stomp %281%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smb_stomp.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

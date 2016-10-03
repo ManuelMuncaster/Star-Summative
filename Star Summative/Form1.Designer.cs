@@ -37,20 +37,22 @@
             // labelTitle
             // 
             this.labelTitle.AutoSize = true;
-            this.labelTitle.Font = new System.Drawing.Font("Prestige Elite Std", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTitle.BackColor = System.Drawing.Color.Transparent;
+            this.labelTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTitle.ForeColor = System.Drawing.Color.White;
-            this.labelTitle.Location = new System.Drawing.Point(202, 9);
+            this.labelTitle.Location = new System.Drawing.Point(126, 9);
             this.labelTitle.Name = "labelTitle";
-            this.labelTitle.Size = new System.Drawing.Size(140, 45);
+            this.labelTitle.Size = new System.Drawing.Size(123, 46);
             this.labelTitle.TabIndex = 0;
             this.labelTitle.Text = "Orion";
             // 
             // labelName
             // 
             this.labelName.AutoSize = true;
+            this.labelName.BackColor = System.Drawing.Color.Transparent;
             this.labelName.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelName.ForeColor = System.Drawing.Color.White;
-            this.labelName.Location = new System.Drawing.Point(139, 213);
+            this.labelName.Location = new System.Drawing.Point(64, 493);
             this.labelName.Name = "labelName";
             this.labelName.Size = new System.Drawing.Size(264, 31);
             this.labelName.TabIndex = 1;
@@ -58,20 +60,21 @@
             // 
             // drawOrion
             // 
-            this.drawOrion.Location = new System.Drawing.Point(210, 92);
+            this.drawOrion.BackColor = System.Drawing.Color.Transparent;
+            this.drawOrion.Location = new System.Drawing.Point(134, 196);
             this.drawOrion.Name = "drawOrion";
             this.drawOrion.Size = new System.Drawing.Size(119, 83);
             this.drawOrion.TabIndex = 2;
             this.drawOrion.Text = "Draw!!!";
-            this.drawOrion.UseVisualStyleBackColor = true;
+            this.drawOrion.UseVisualStyleBackColor = false;
             this.drawOrion.Click += new System.EventHandler(this.drawOrion_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(551, 435);
+            this.BackColor = System.Drawing.Color.Maroon;
+            this.ClientSize = new System.Drawing.Size(391, 546);
             this.Controls.Add(this.drawOrion);
             this.Controls.Add(this.labelName);
             this.Controls.Add(this.labelTitle);
