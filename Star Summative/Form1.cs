@@ -38,9 +38,6 @@ namespace Star_Summative
             //Setting up pens and brush
             Pen whitePen = new Pen(Color.White, 2);
             SolidBrush whiteBrush = new SolidBrush(Color.White);
-
-            Thread.Sleep(1500);
-            Refresh();
             
             //All of the sounds played when the stars are drawn
             SoundPlayer player0 = new SoundPlayer(Properties.Resources.itsme);
@@ -57,8 +54,10 @@ namespace Star_Summative
             SoundPlayer player21 = new SoundPlayer(Properties.Resources.powerup);
             SoundPlayer player22 = new SoundPlayer(Properties.Resources.powerupappears);
             SoundPlayer player23 = new SoundPlayer(Properties.Resources.stomp);
-            
+
             //Placing all of the stars onto the screen
+            Thread.Sleep(1500);
+            Refresh();
             player0.Play();
             Thread.Sleep(2000);
             player11.Play();
